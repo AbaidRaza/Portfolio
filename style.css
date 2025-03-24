@@ -1,0 +1,115 @@
+<section id="about">
+<h1>Hi, I'm Abaid</h1>
+<p>I'm a passionate web developer with experience in frontend and backend development. I love creating user-friendly and responsive websites.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Bootstrap</li>
+    <li>React</li>
+    <li>Java</li>
+</ul>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="project">
+    <h3>Portfolio Website</h3>
+    <p>A personal portfolio showcasing my projects and skills.</p>
+</div>
+<div class="project">
+    <h3>Task Manager App</h3>
+    <p>A web app to manage daily tasks efficiently.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p>Email: abaidraza001@gmail.com</p>
+<p>Phone: +923294334116</p>
+</section>
+
+<footer>
+<p>&copy; 2024 Abaid. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
+
+/* styles.css */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+header {
+background: #333;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+section {
+padding: 40px 20px;
+max-width: 900px;
+margin: 0 auto;
+}
+
+#about {
+text-align: center;
+background: #f4f4f4;
+}
+
+#skills ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0;
+}
+
+#skills li {
+background: #007bff;
+color: #fff;
+margin: 5px;
+padding: 10px 20px;
+border-radius: 5px;
+list-style: none;
+}
+
+.project {
+border: 1px solid #ccc;
+padding: 15px;
+margin: 15px 0;
+border-radius: 5px;
+background: #fff;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #333;
+color: #fff;
+}
